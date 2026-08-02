@@ -1,0 +1,27 @@
+PORTFOLIO WEBSITE VIDEO DEMO SCRIPT
+Recommended length: 2–3 minutes
+
+Hello Professor. My name is [YOUR NAME]. This is my portfolio website assignment, built using HTML, CSS, and JavaScript.
+
+First, this is the home section. It shows my name, my role, a short introduction, and buttons to view my projects or contact me.
+
+The navigation bar allows users to move easily between Home, About, Skills, Projects, and Contact. On a mobile screen, the navigation changes into a menu button.
+
+This website also includes a light and dark mode. When I click this button, JavaScript changes the theme and saves the selected theme in LocalStorage.
+
+Next is the About section. It introduces my background, study program, interests, and current availability.
+
+The Skills section presents my knowledge of HTML, CSS, JavaScript, and GitHub with simple progress bars.
+
+In the Projects section, I added project cards. The user can filter the projects by Web or Design. This filtering function is created with JavaScript.
+
+The Services section explains the type of work I can do, including website development, responsive design, and interface improvement.
+
+Finally, the Contact section includes a form. JavaScript checks whether the name, email address, and message are valid before accepting the form.
+
+The website is fully responsive, so it works on desktop, tablet, and mobile devices.
+
+Here is my deployed website link: [PASTE DEPLOYMENT LINK]
+Here is my GitHub source code link: [PASTE GITHUB LINK]
+
+Thank you for watching my demonstration.

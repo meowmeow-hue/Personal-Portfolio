@@ -1,0 +1,44 @@
+PORTFOLIO ASSIGNMENT CHECKLIST
+Deadline: 01 August 2026
+
+BEFORE UPLOADING
+[ ] Replace "Your Name" with your real name
+[ ] Replace "YN" with your initials
+[ ] Add your real email and phone number
+[ ] Add your GitHub username
+[ ] Add your LinkedIn link, or remove LinkedIn if you do not use it
+[ ] Replace placeholder project links
+[ ] Check spelling and personal information
+[ ] Test every navigation link
+[ ] Test light and dark mode
+[ ] Test project filters
+[ ] Test contact form validation
+[ ] Test the website on mobile screen
+
+GITHUB
+[ ] Create GitHub repository
+[ ] Upload all project files
+[ ] Confirm repository is Public
+[ ] Copy GitHub source code URL
+
+DEPLOYMENT
+[ ] Deploy with GitHub Pages or Vercel
+[ ] Open deployment URL in another browser
+[ ] Check CSS and JavaScript load correctly
+[ ] Copy deployment URL
+
+VIDEO
+[ ] Record screen and voice
+[ ] Show the home page
+[ ] Show navigation
+[ ] Show dark mode
+[ ] Show responsive mobile view
+[ ] Show project filters
+[ ] Show form validation
+[ ] Mention HTML, CSS, and JavaScript
+[ ] Mention deployment and GitHub links
+
+FINAL SUBMISSION
+[ ] Send deployment link
+[ ] Send GitHub source code link
+[ ] Send video demo

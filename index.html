@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional student portfolio website built with HTML, CSS, and JavaScript." />
+  <title>Rith Monyleaphea | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Go to home">PHEA<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg hero-bg-one"></div>
+      <div class="hero-bg hero-bg-two"></div>
+
+      <div class="hero-container container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Rith Monyleaphea</h1>
+          <h2>Freshman majoring in Information and Communication Technology at AUPP &amp; I also passionate with FullStack Developer</h2>
+          <p class="hero-description">
+            I create clean, responsive, and user-friendly websites using HTML, CSS,
+            JavaScript, and modern web technologies.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-ring">
+              <div class="profile-placeholder" aria-label="Profile photo placeholder">PHEA</div>
+            </div>
+            <div class="floating-card card-code">&lt;/&gt; Web Developer</div>
+            <div class="floating-card card-location">📍 Phnom Penh</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am Rith Monyleaphea, a freshman majoring in Information and Communication Technology at AUPP. I am also passionate about full-stack web development. I enjoy turning ideas into practical websites
+              that are attractive, easy to understand, and simple to use.
+            </p>
+            <p>
+              My goal is to continue improving my programming skills and build useful
+              digital products for businesses and users.
+            </p>
+
+            <div class="info-grid">
+              <div><span>Name</span><strong>Rith Monyleaphea</strong></div>
+              <div><span>Location</span><strong>Phnom Penh, Cambodia</strong></div>
+              <div><span>Study</span><strong>ICT</strong></div>
+              <div><span>Availability</span><strong>Open to Opportunities</strong></div>
+            </div>
+          </div>
+
+          <div class="stats-grid reveal">
+            <article class="stat-card"><strong>3</strong><span>Academic Projects</span></article>
+            <article class="stat-card"><strong>4</strong><span>Core Web Skills</span></article>
+            <article class="stat-card"><strong>90%</strong><span>Responsive Design</span></article>
+            <article class="stat-card"><strong>Always</strong><span>Learning</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What I use</p>
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">HTML</div>
+            <h3>HTML5</h3>
+            <p>Semantic and accessible page structure.</p>
+            <div class="skill-bar"><span style="width: 90%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">CSS</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, animations, and clean styling.</p>
+            <div class="skill-bar"><span style="width: 85%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive navigation, themes, forms, and filters.</p>
+            <div class="skill-bar"><span style="width: 75%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">Git</div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control and project deployment.</p>
+            <div class="skill-bar"><span style="width: 70%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>My Projects</h2>
+        </div>
+
+        <div class="project-filters reveal" role="group" aria-label="Project filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="web">
+            <div class="project-image project-one">
+              <span>Portfolio Website</span>
+            </div>
+            <div class="project-content">
+              <p class="project-label">HTML • CSS • JavaScript</p>
+              <h3>Professional Portfolio</h3>
+              <p>A responsive personal website with dark mode, filters, animations, and contact form validation.</p>
+              <div class="project-links">
+                <a href="#home">Live Demo</a>
+                <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="web">
+            <div class="project-image project-two">
+              <span>Coffee Recipe App</span>
+            </div>
+            <div class="project-content">
+              <p class="project-label">React • Vite • LocalStorage</p>
+              <h3>Tube Coffee Recipe Book</h3>
+              <p>A recipe application for browsing drinks, searching, filtering, saving favorites, and adding recipes.</p>
+              <div class="project-links">
+                <a href="https://tube-recipe-book-main.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/yourusername/tube-recipe-book" target="_blank" rel="noopener noreferrer">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="design">
+            <div class="project-image project-three">
+              <span>Cloning FlowerKnow</span>
+            </div>
+            <div class="project-content">
+              <p class="project-label">HTML • CSS</p>
+              <h3>Cloning FlowerKnow</h3>
+              <p>A clone of the FlowerKnow website with a focus on responsive design and user experience.</p>
+              <div class="project-links">
+                <a href="https://meowmeow-hue.github.io/FlowerKnow-Cloning/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/yourusername/flowerknow-clone" target="_blank" rel="noopener noreferrer">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What I can do</p>
+          <h2>Services</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span>01</span>
+            <h3>Website Development</h3>
+            <p>Clean and functional websites built with semantic HTML, CSS, and JavaScript.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>02</span>
+            <h3>Responsive Design</h3>
+            <p>Layouts that work smoothly across desktop, tablet, and mobile screens.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>03</span>
+            <h3>UI Improvement</h3>
+            <p>Simple interface improvements for better readability, structure, and usability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Let us connect</p>
+          <h2>Contact Me</h2>
+          <p>Have a project, internship, or collaboration opportunity? Send me a message.</p>
+
+          <div class="contact-list">
+            <a href="mailto:your.email@example.com"><span>Email</span><strong>your.email@example.com</strong></a>
+            <a href="tel:+855000000000"><span>Phone</span><strong>+855 00 000 000</strong></a>
+            <div><span>Location</span><strong>Phnom Penh, Cambodia</strong></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            <small class="error-message"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span>Rith_Monyleaphea. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status">Replace this placeholder with your real project link.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
